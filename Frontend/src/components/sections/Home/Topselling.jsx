@@ -7,7 +7,6 @@ const Topselling = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   const { products } = useProductStore();
 
-
   // Filter only top selling products
   const Topsellings = products.filter((product) => product.topselling);
 
@@ -69,16 +68,29 @@ const Topselling = () => {
                 </div>
               </div>
               <h5 className="text-3xl  font-serif">{product.name}</h5>
-              <p className="text-xl font-bold text-black">
-                ₱{product.price.toLocaleString()}
-              </p>
+              <div className="flex items-center justify-between">
+                <p className="text-xl font-bold text-black">
+                  ₱{product.price.toLocaleString()}
+                </p>
+                <button
+                  onClick={() => {
+                    addToCart(product, product.id);
+                    alert(`${product.name} added to cart`);
+                  }}
+                  className="rounded-xl bg-black text-white py-2 px-4 cursor-pointer"
+                >
+                  Add to Cart
+                </button>
+              </div>
             </div>
           );
         })}
       </Slider>
-      <div className="bg-black w-fit px-20 py-4 rounded-3xl mx-auto mt-30 cursor-pointer">
-        <button className="text-white">View All</button>
-      </div>
+      <Link to={"/onsale"}>
+        <div className="bg-black w-fit px-20 py-4 rounded-3xl mx-auto mt-30 cursor-pointer">
+          <button className="text-white">View All</button>
+        </div>
+      </Link>
     </div>
   );
 };

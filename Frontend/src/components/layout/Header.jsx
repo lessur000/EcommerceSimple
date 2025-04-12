@@ -13,9 +13,11 @@ import useProductStore from "../store/useProductStore";
 import useToggleStore from "../store/useToggleStore";
 import SidebarNavMenu from "./SidebarNavMenu";
 import SidebarCartMenu from "../cart/SidebarCartMenu";
+import useCartStore from "../store/useCartStore";
 
 const Header = () => {
   const { setSearchQuery } = useProductStore();
+  const {itemAmount} = useCartStore()
   const {
     toggleCart,
     toggleNav,
@@ -109,11 +111,16 @@ const Header = () => {
             />
           </div>
           {/* MenuCart */}
+          <div className="relative">
           <FaShoppingCart
             size={26}
             className="cursor-pointer hover:text-gray-600"
             onClick={toggleCart}
           />
+          <span className="bg-red-500 rounded-full absolute -top-3 -right-3 w-[18px] text-white text-center ">
+              {itemAmount}
+            </span>
+          </div>
           <SidebarCartMenu />
           {/* Users */}
           <div className="relative">

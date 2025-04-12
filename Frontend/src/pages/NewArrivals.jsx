@@ -46,9 +46,20 @@ const NewArrivals = () => {
                 </div>
               </div>
               <h5 className="text-3xl  font-serif">{product.name}</h5>
-              <p className="text-xl font-bold text-black">
-                ₱{product.price.toLocaleString()}
-              </p>
+              <div className="flex items-center justify-between">
+                <p className="text-xl font-bold text-black">
+                  ₱{product.price.toLocaleString()}
+                </p>
+                <button
+                  onClick={() => {
+                    addToCart(product, product.id);
+                    alert(`${product.name} added to cart`);
+                  }}
+                  className="rounded-xl bg-black text-white py-2 px-4 cursor-pointer"
+                >
+                  Add to Cart
+                </button>
+              </div>
             </div>
           ))}
         </div>

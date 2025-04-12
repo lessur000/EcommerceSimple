@@ -7,7 +7,7 @@ import CartProducts from "./CartProducts";
 
 const SidebarCartMenu = () => {
   const { isCartOpen, toggleCart } = useToggleStore();
-  const { cart, subTotal, deliveryFee, total, discount } = useCartStore();
+  const { cart, subTotal, deliveryFee, total, discount, itemAmount } = useCartStore();
 
   return (
     <>
@@ -26,7 +26,7 @@ const SidebarCartMenu = () => {
               onClick={toggleCart} // Close cart when clicked
             />
           </div>
-          <h3 className="text-xl font-semibold mb-4">Your Cart</h3>
+          <h3 className="text-xl font-semibold mb-4">Your Cart {itemAmount}</h3>
           {/* Add cart items here */}
 
           <div className="flex flex-col gap-y-2 h-[520px] lg:h-[700px] overflow-y-auto overflow-x-hidden ">
