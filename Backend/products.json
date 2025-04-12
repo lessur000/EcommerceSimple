@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Nike AirMax1",
+    "category": "Nike",
+    "price": 7177,
+    "image": "/images/Nike/AirMax1.png",
+    "description": "Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled with pressurized gas, visible from the exterior of the shoe and intended to provide cushioning to the underfoot",
+    "NewArrivals": true,
+    "topselling": false
+  },
+  {
+    "id": 2,
+    "name": "Nike AirMax90",
+    "category": "Nike",
+    "price": 6295,
+    "image": "/images/Nike/Airmax90.png",
+    "description": "Originally designed for performance running, visible Air cushioning puts the history of comfort beneath your feet. Rubber Waffle outsole delivers traction, durability and heritage style. Padded, low-cut collar looks sleek and feels great.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 3,
+    "name": "AirMax AlphaTrainer 6",
+    "category": "Nike",
+    "price": 4995,
+    "image": "/images/Nike/AirmaxAlphaTrainer6.png",
+    "description": "The Air Max Alpha Trainer 6 brings sturdiness and comfort, the best of both worlds, to your toughest workouts. A flat, wide base helps keep you from sinking.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 4,
+    "name": "AirMax Dn8",
+    "category": "Nike",
+    "price": 10895,
+    "image": "/images/Nike/AirMaxDn8.png",
+    "description": "Powered by eight pressurised Air tubes, it gives you a responsive sensation with every step. Enter an unreal experience of movement.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 5,
+    "name": "AirMax OG",
+    "category": "Nike",
+    "price": 9395,
+    "image": "/images/Nike/AirmaxOG.png",
+    "description": "OG means original and refers to the very first time the model of Air Jordans was released. OG should not be used for retros or re-releases, even if they look almost exactly the same because it really isn't.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 6,
+    "name": "AirMax Portal",
+    "category": "Nike",
+    "price": 3409,
+    "image": "/images/Nike/AirmaxPortal.png",
+    "description": "The Portal is the perfect blend of chunky and sleek, combining the platform sole of 2000s with the minimalist upper of contemporary designs",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 7,
+    "name": "AirMax Sol",
+    "category": "Nike",
+    "price": 4295,
+    "image": "/images/Nike/AirmaxSol.png",
+    "description": "Bring bold sneaker style to sunny days in the Air Max Sol. Its large foam midsole and exposed Air unit play off streetwear favourites and deliver lightweight comfort you can take from the beach to the town",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 8,
+    "name": "Adidas Anthony 1",
+    "category": "Adidas",
+    "price": 8000,
+    "image": "/images/Adidas/AdidasAnthonyEdwards1.png",
+    "description": "There's no one like Anthony Edwards. His unique brand of confidence and self-belief is out of the ordinary, to say the least, but it's powerful and unwavering. He believes in himself so much that it makes you want to believe, too. Because when you live up to the person you see inside yourself, the possibilities are endless.",
+    "NewArrivals": true,
+    "topselling": false
+  },
+  {
+    "id": 9,
+    "name": "Adidas DuramoSpeed 2",
+    "category": "Adidas",
+    "price": 4500,
+    "image": "/images/Adidas/AdidasDuramoSpeed2.png",
+    "description": "A combination of a lightweight & breathable engineered mesh upper with a full length LIGHTSTRIKE midsole for faster movement and durable outsole was built for runners looking to learn the ropes and push themselves to the next level.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 10,
+    "name": "Adidas GrandCourt",
+    "category": "Adidas",
+    "price": 4000,
+    "image": "/images/Adidas/AdidasGrandCourt.png",
+    "description": "A comfy, all-time classic made in part with recycled materials. If you could only have one pair of sneakers, this could be them. These adidas Grand Court shoes with the classic 3-Stripes keep your sneaker game sharp and clean.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 11,
+    "name": "Adidas HardenVolume 9",
+    "category": "Adidas",
+    "price": 9500,
+    "image": "/images/Adidas/AdidasHardenVolume9.png",
+    "description": "The shoes officially released on February 23rd, 2024 in an orange and black “Sculpt” colorway, followed by a steady stream of new looks throughout the duration of the season.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 12,
+    "name": "Adidas Hoops 3.0",
+    "category": "Adidas",
+    "price": 3814,
+    "image": "/images/Adidas/AdidasHoops3.0.png",
+    "description": "With all the classic charisma of '80s-era basketball sneakers, adidas Hoops shoes combine old-school looks with modern comfort. Designed to provide an all-day comfortable fit from heel to toe, Hoops sneakers bring back many of the classic details featured on performance shoes from that era.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 13,
+    "name": "Adidas Subzone",
+    "category": "Adidas",
+    "price": 3400,
+    "image": "/images/Adidas/AdidasSubzone.png",
+    "description": "Inspired by performance basketball shoes, these adidas sneakers are designed to support your every move. The upper is made from a mix of materials that hug the foot in place while allowing air to circulate. Underneath, Cloudfoam cushioning smooths out your stride, while the durable rubber outsole grips the ground to keep you in control.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 14,
+    "name": "Fila Disruptor",
+    "category": "Fila",
+    "price": 2601,
+    "image": "/images/Fila/FilaDisruptor.png",
+    "description": "These Fila fashion sneakers are sure to be your favorite! Disruptor 2 premium sneakers are designed to provide superior comfort and stylish look.",
+    "NewArrivals": true,
+    "topselling": false
+  },
+  {
+    "id": 15,
+    "name": "Fila FireAce",
+    "category": "Fila",
+    "price": 2496,
+    "image": "/images/Fila/FilaFireace.png",
+    "description": "Comfortable, supportive, and reinforced durability where you need it most. Blending court performance with a classic minimalist look,",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 16,
+    "name": "Fila GrantHill 2",
+    "category": "Fila",
+    "price": 9766,
+    "image": "/images/Fila/FilaGrantHill2.png",
+    "description": "When 1995 came, it was Grant Hill's time for his second shoe, this time it was the Fila Grant Hill II. Once again, competing with Nike, Fila used minimal hints of patent leather (a lot less than the Jordan 11, which was released at the same time).",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 17,
+    "name": "Fila PeranoPLus",
+    "category": "Fila",
+    "price": 3344,
+    "image": "/images/Fila/FilaPeranoPLus.png",
+    "description": "The lace-up front ensures a secure and adjustable fit, while the intricate stitching accents add a refined touch. The cushioned insole provides exceptional comfort for all-day wear, and the rubber traction outsole delivers superior grip and stability.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 18,
+    "name": "Fila Racer",
+    "category": "Fila",
+    "price": 5922,
+    "image": "/images/Fila/FilaRacer.png",
+    "description": "",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 19,
+    "name": "Fila Royalton",
+    "category": "Fila",
+    "price": 7294,
+    "image": "/images/Fila/FilaRoyalton.png",
+    "description": "Hit the ground running with it's supremely comfortable platform and absorb any obstacle that lies in your path with its heavy-duty bottom tread. A durable leather upper ensures they'll last, rain or shine.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 20,
+    "name": "Fila Stackhouse Spaghetti",
+    "category": "Fila",
+    "price": 10166,
+    "image": "/images/Fila/FilaStackhouseSpaghetti.png",
+    "description": "",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 21,
+    "name": "Puma Carson",
+    "category": "Puma",
+    "price": 3500,
+    "image": "/images/Puma/PumaCarson.png",
+    "description": "Stackhouse Spaghetti Men's Sneakers is an orginial 90's hoops style. These men's shoes are perfect for the basketball court.",
+    "NewArrivals": true,
+    "topselling": false
+  },
+  {
+    "id": 22,
+    "name": "Puma St.Miller",
+    "category": "Puma",
+    "price": 6500,
+    "image": "/images/Puma/PumaStMiler.png",
+    "description": "Step into retro vibes with these sneakers. Featuring a mesh upper with suede overlays, they offer a timeless look with playful color",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 23,
+    "name": "Puma Future 8",
+    "category": "Puma",
+    "price": 2304,
+    "image": "/images/Puma/PumaFuture8.png",
+    "description": "A textured high-density mesh layer with a GripControl Pro finish adds grip and control. With the all-new FLEXGILITY outsole for 360-degree agility.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 24,
+    "name": "Puma Lamelo",
+    "category": "Puma",
+    "price": 7300,
+    "image": "/images/Puma/PumaLamelo.png",
+    "description": "LaMelo Ball is not of this Earth  but fortunately he comes in peace. Inspired by Melo otherworldly style of play, the MB.04’s unique design is wrapped in alien tentacles with Melo phrases hidden throughout. With a supportive double-layered mesh upper and NITROFOAM™ cushioning for on-court power, the MB.04 has it all. The Golden Child sets the standard with an all-gold upper and LaFrancé logo at the heel.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 25,
+    "name": "Puma MostroBlack",
+    "category": "Puma",
+    "price": 7600,
+    "image": "/images/Puma/PumaMostroBlack.png",
+    "description": "Since 1999, the spine-chilling PUMA Mostro has been a favorite of those who defy the norm. Named after the Italian word for monster, the hybrid silhouette borrows from two diverse realms: the streamlined sprinting spikes of the '60s and the surfing shoes of the '80s",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 26,
+    "name": "Puma SpeedCat OG",
+    "category": "Puma",
+    "price": 7100,
+    "image": "/images/Puma/PumaSpeedCatOG.png",
+    "description": "The PUMA Speedcat has been an icon of racing culture and street style for decades. The world first knew it as an ultra-slim driving shoe designed to shave milliseconds off lap times. Then it became a sleek streetwear staple seen on the streets of global fashion capitals.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 27,
+    "name": "Under Apparition",
+    "category": "UnderArmour",
+    "price": 10500,
+    "image": "/images/UnderArmour/underApparition.png",
+    "description": "These throwbacks are packed with authentic running shoe details but updated with fresh colors, leather upper detailing and soft UA HOVR™ cushionin",
+    "NewArrivals": true,
+    "topselling": false
+  },
+  {
+    "id": 28,
+    "name": "under InfinitePro",
+    "category": "UnderArmour",
+    "price": 3500,
+    "image": "/images/UnderArmour/underInfinitePRo.png",
+    "description": "Working on your endurance? UA Infinite Pro has the perfect amount of support and new, springy UA HOVR+ cushioning to keep your legs feeling fresh. So, when coach says, Keep running, you'll be the one pushing the pace.",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 29,
+    "name": "Under Phantom 4",
+    "category": "UnderArmour",
+    "price": 4100,
+    "image": "/images/UnderArmour/underPhantom4.png",
+    "description": "With the comfort and durability of a technical performance shoe plus the clean look and feel of a street sneaker, UA Phantom 4 is the ultimate outfit finisher.",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 30,
+    "name": "Under SlipSpeed",
+    "category": "UnderArmour",
+    "price": 4350,
+    "image": "/images/UnderArmour/underSlipspeed.png",
+    "description": "These unisex training shoes are designed with a unique dual-mode feature, offering a pumped-up look that caters to everyone's needs. ",
+    "NewArrivals": false,
+    "topselling": true
+  },
+  {
+    "id": 31,
+    "name": "Under Valsetz",
+    "category": "UnderArmour",
+    "price": 3211,
+    "image": "/images/UnderArmour/underValsetz.png",
+    "description": "Light, breathable synthetic upper with PU overlays in high abrasion areas for added protection & durability · Pull loops on heel & tongue for easy on/off",
+    "NewArrivals": false,
+    "topselling": false
+  },
+  {
+    "id": 32,
+    "name": "Under Velocity 4",
+    "category": "UnderArmour",
+    "price": 4999,
+    "image": "/images/UnderArmour/underVelocity4.png",
+    "description": "The running shoes were generally found to be comfortable, lightweight, and supportive, with good cushioning and flexibility.",
+    "NewArrivals": false,
+    "topselling": false
+  }
+]

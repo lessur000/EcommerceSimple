@@ -1,0 +1,17 @@
+body {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient {
+  position: absolute;
+  width: 404px;
+  height: 500px;
+  left: 60%;
+  top: 20%;
+  background: rgba(218, 67, 47, 0.527);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+  z-index: -1;
+}
