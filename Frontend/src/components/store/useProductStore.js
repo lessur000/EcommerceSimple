@@ -18,7 +18,7 @@ const useProductStore = create((set) => ({
   // NEW: Async action to fetch products
   fetchProducts: async () => {
     try {
-      const response = await fetch("http://localhost:3000/api/products");
+      const response = await fetch("https://ecommercesimple.onrender.com/api/products");
       if (!response.ok) throw new Error("Network response was not ok");
       const data = await response.json();
       set({ products: data, isLoading: false });
