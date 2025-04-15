@@ -7,8 +7,8 @@ const ProductGrid = () => {
   // Get pagination and product data from the store
   const { currentProducts, currentPage, totalPages, setCurrentPage } =
     usePagination();
-  // Get the fetchProducts function and the products from the store
-  const { fetchProducts, products } = useProductStore();
+  // Get the fetchProducts function and the products and the searchQuery from the store
+  const { fetchProducts, products, setSearchQuery } = useProductStore();
   //Get the addtoCart function from the CartStore
   const addToCart = useCartStore((state) => state.addToCart);
 
@@ -21,6 +21,16 @@ const ProductGrid = () => {
 
   return (
     <div className="flex flex-col max-w-[1200px]">
+      <div className="hidden md:block">
+        <div className="flex justify-end ">
+          <input
+            type="text"
+            className="2xl:w-[500px] w-full rounded-full bg-gray-200 pl-12 py-3 pr-4 focus:outline-none md:max-w-[400px]"
+            placeholder="Search for products..."
+            onChange={(e) => setSearchQuery(e.target.value)} //update searchQuery state
+          />
+        </div>
+      </div>
       {/* Main content */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {currentProducts.length > 0 ? (

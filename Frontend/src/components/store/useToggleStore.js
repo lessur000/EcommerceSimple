@@ -25,7 +25,13 @@ const useToggleStore = create((set) => ({
   isFormOpen: false,
   toggleForm: () => set((state) => ({isFormOpen: !state.isFormOpen})),
   openForm: () => set({isFormOpen: true}),
-  closeForm: () => set({isFormOpen: false})
+  closeForm: () => set({isFormOpen: false}),
+  //filter toggle
+  isFilterOpen: false,
+  toggleFilter: () => set((state) => ({isFilterOpen: !state.isFilterOpen})),
+  openFilter: () => set({isFilterOpen: true}),
+  closeFilter: () => set({isFilterOpen: false}),
+
 
 }));
 

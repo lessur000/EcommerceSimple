@@ -1,4 +1,3 @@
-import React from "react";
 import { motion as Motion } from "framer-motion";
 import {
   FaChevronDown,
@@ -9,15 +8,13 @@ import {
 } from "../ui/Icons";
 import Logo from "/Logo.png";
 import { Link } from "react-router-dom";
-import useProductStore from "../store/useProductStore";
 import useToggleStore from "../store/useToggleStore";
 import SidebarNavMenu from "./SidebarNavMenu";
 import SidebarCartMenu from "../cart/SidebarCartMenu";
 import useCartStore from "../store/useCartStore";
 
 const Header = () => {
-  const { setSearchQuery } = useProductStore();
-  const {itemAmount} = useCartStore()
+  const { itemAmount } = useCartStore();
   const {
     toggleCart,
     toggleNav,
@@ -102,7 +99,6 @@ const Header = () => {
               type="text"
               className="2xl:w-[500px] w-full rounded-full bg-gray-200 pl-12 py-3 pr-4 focus:outline-none"
               placeholder="Search for products..."
-              onChange={(e) => setSearchQuery(e.target.value)} //update searchQuery state
             />
             {/* Magnifying Glass Icon */}
             <FaMagnifyingGlass
@@ -112,12 +108,12 @@ const Header = () => {
           </div>
           {/* MenuCart */}
           <div className="relative">
-          <FaShoppingCart
-            size={26}
-            className="cursor-pointer hover:text-gray-600"
-            onClick={toggleCart}
-          />
-          <span className="bg-red-500 rounded-full absolute -top-3 -right-3 w-[18px] text-white text-center ">
+            <FaShoppingCart
+              size={26}
+              className="cursor-pointer hover:text-gray-600"
+              onClick={toggleCart}
+            />
+            <span className="bg-red-500 rounded-full absolute -top-3 -right-3 w-[18px] text-white text-center ">
               {itemAmount}
             </span>
           </div>
@@ -132,8 +128,10 @@ const Header = () => {
             {/* show when user is true */}
             {isUserOpen && (
               <div className="absolute top-10 -left-10 bg-red-500/50 py-2 px-4 rounded-2xl">
-                <Link to={'/login'}>
-                  <button className="text-white font-semibold cursor-pointer">Login</button>
+                <Link to={"/login"}>
+                  <button className="text-white font-semibold cursor-pointer">
+                    Login
+                  </button>
                 </Link>
               </div>
             )}
