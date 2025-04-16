@@ -8,6 +8,7 @@ const useProductStore = create((set) => ({
   currentPage: 1,
   itemsPerPage: 8,
   searchQuery: "",
+  isLoading: true,
   //  ACTIONS (state updaters)
   setProducts: (products) => set({ products }),
   setSelectedCategory: (category) =>
@@ -17,11 +18,17 @@ const useProductStore = create((set) => ({
 
   // NEW: Async action to fetch products
   fetchProducts: async () => {
+    set({ isLoading: true });
     try {
-      const response = await fetch("https://ecommercesimple.onrender.com/api/products");
+      const response = await fetch(
+        "https://ecommercesimple.onrender.com/api/products"
+      );
       if (!response.ok) throw new Error("Network response was not ok");
       const data = await response.json();
-      set({ products: data, isLoading: false });
+      // simulate a small delay
+      setTimeout(() => {
+        set({ products: data, isLoading: false });
+      }, 1500);
     } catch (error) {
       set({ error: error.message, isLoading: false });
     }

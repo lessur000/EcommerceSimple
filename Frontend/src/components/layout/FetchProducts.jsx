@@ -1,15 +1,15 @@
+// components/layout/FetchProducts.jsx
 import { useEffect } from "react";
-import useProductStore from "../store/useProductStore"
-
+import useProductStore from "../store/useProductStore";
 
 const FetchProducts = () => {
-    const {fetchProducts, products} = useProductStore();
+  const fetchProducts = useProductStore((state) => state.fetchProducts);
 
-    useEffect(() => {
-        fetchProducts();
-    },[fetchProducts, products])
- 
-    return null
-}
+  useEffect(() => {
+    fetchProducts(); // ✅ This must run
+  }, [fetchProducts]);
 
-export default FetchProducts
+  return null;
+};
+
+export default FetchProducts;
