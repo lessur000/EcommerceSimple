@@ -33,11 +33,21 @@ const useCartStore = create((set, get) => ({
     get().calculateTotals();
   },
 
-  // Increase item quantity
-  increaseAmount: (id) => {
-    const updatedCart = get().cart.map((item) =>
-      item.id === id ? { ...item, amount: item.amount + 1 } : item
-    );
+  increaseAmount: (id, product) => {
+    const cart = get().cart;
+    const existingItem = cart.find((item) => item.id === id);
+  
+    let updatedCart;
+    if (existingItem) {
+      updatedCart = cart.map((item) =>
+        item.id === id ? { ...item, amount: item.amount + 1 } : item
+      );
+    } else if (product) {
+      updatedCart = [...cart, { ...product, id, amount: 1 }];
+    } else {
+      return;
+    }
+  
     set({ cart: updatedCart });
     get().calculateTotals();
   },

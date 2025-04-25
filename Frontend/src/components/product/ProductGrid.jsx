@@ -71,7 +71,6 @@ const ProductGrid = () => {
                   <button
                     onClick={() => {
                       addToCart(product, product.id);
-                      alert(`${product.name} added to cart`);
                     }}
                     className="rounded-xl bg-black text-white py-2 px-4 cursor-pointer"
                   >

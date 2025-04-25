@@ -76,7 +76,7 @@ const Newarrival = () => {
                   <button
                     onClick={() => {
                       addToCart(product, product.id);
-                      alert(`${product.name} add to cart`);
+                   
                     }}
                     className="bg-red-500 text-white px-4 py-2 rounded-lg cursor-pointer"
                   >
@@ -93,7 +93,7 @@ const Newarrival = () => {
                 <button
                   onClick={() => {
                     addToCart(product, product.id);
-                    alert(`${product.name} added to cart`);
+                   
                   }}
                   className="rounded-xl bg-black text-white py-2 px-4 cursor-pointer"
                 >
