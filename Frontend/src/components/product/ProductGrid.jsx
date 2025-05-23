@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import usePagination from "../../hooks/usePagination";
 import useProductStore from "../store/useProductStore";
 import useCartStore from "../store/useCartStore";
-import ProductSkeleton from "../layout/ProductSkeleton";
+
 
 const ProductGrid = () => {
   // Get pagination and product data from the store
@@ -12,7 +12,7 @@ const ProductGrid = () => {
   const { fetchProducts, products, setSearchQuery, isLoading } =
     useProductStore();
   //Get the addtoCart function from the CartStore
-  const addToCart = useCartStore((state) => state.addToCart);
+  const addToCart = useCartStore((state) => state.addToCart)  ;
 
   // Fetch products on page load
   useEffect(() => {

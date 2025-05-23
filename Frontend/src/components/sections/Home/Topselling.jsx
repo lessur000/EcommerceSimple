@@ -102,6 +102,6 @@ const Topselling = () => {
       </Link>
     </div>
   );
-};
+};  
 
 export default Topselling;

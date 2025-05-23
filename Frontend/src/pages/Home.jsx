@@ -21,7 +21,7 @@ const Home = () => {
       const timer = setTimeout(() => {
         setShowSplash(false);
         sessionStorage.setItem("hasShownSplash", "true");
-      }, 1000);
+      }, 500);
 
       return () => clearTimeout(timer);
     } else {

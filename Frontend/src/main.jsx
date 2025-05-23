@@ -4,9 +4,4 @@ import "./index.css";
 import "./styles/Global.css";
 import App from "./routes/App";
 
-
-createRoot(document.getElementById("root")).render(
-
-    <App />
-
-);
+createRoot(document.getElementById("root")).render(<App />);
